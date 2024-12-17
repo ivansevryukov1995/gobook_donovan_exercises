@@ -37,6 +37,6 @@ func main() {
 	exercises1_3Joint(s)
 	end2 := time.Since(start).Microseconds()
 
-	fmt.Printf("Usual: %v, with strings.Join: %v", end1, end2) //approximately Usual: 528, with strings.Join: 0
+	fmt.Printf("Usual: %v, help with strings.Join: %v", end1, end2) //approximately Usual: 528, with strings.Join: 0
 
 }
